@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wigs & More|| about Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+ <!-- header section -->
+ <header>
+    <div class="wrapper">
+        <!-- logo section -->
+        <div class="logo">
+            <img src="assets/images/mainlogo.png" alt="">
+            <div></div>
+            <nav><h2>FRESH AIR, FRESH HAIR</h2>
+             <p>Find the perfect bundles,closures and wigs to enhance your looks!</p></nav> 
+
+        </div>
+        <!-- navigation -->
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="products.html">Products</a></li>
+            </ul>
+        </nav>
+
+        </div>
+        <div class="menu-bar">
+            <div class="bars"></div>
+            <div class="bars"></div>
+            <div class="bars"></div>
+        </div>
+    </div>
+</header>
+<!-- end of header -->
+
+<div class="mobile-menu">
+    <span>&times;</span>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="products.html">Products</a></li>
+        </ul>
+    </div>
+</div>
+
+
+ <!-- section con -->
+ <div class="container">
+    <div class="title">
+        <h2>About Us</h2>
+        <p>At Wigs & More, our dedication lies in assisting you in discovering top-quality wigs and extensions. Regardless of your familiarity with wearable hair, our expert advice and resources will steer you towards the perfect options. With an unparalleled assortment of wigs and extensions, our platform ensures you radiate exceptional beauty!
+        </p>
+    </div>
+    <div class="section-wrapper">
+        <div class="img-container">
+            <img src="assets/images/7.jpeg" width="90%" alt="">
+        </div>
+        <div class="about-us">
+            <h2>Personalized Perfection</h2>
+            <p>Anticipate premium products and outstanding customer support, all tailored to your requirements. With experience in the beauty and hair industry, we stand as your reliable destination for wigs and 
+                extensions.
+                 
+            
+            <h2>Customer-Centric Returns</h2>
+            <p>Simplifying the return process, we offer a 30-day window from the shipping date, no restocking fees, swift refunds, and prepaid shipping labels (or the option to use your own).
+
+
+            <h2>Tailored Excellence</h2>
+            <p>Anticipate top-tier products, in-depth education, and outstanding customer service, all uniquely crafted to suit your requirements.
+
+            </p>
+            <p>        
+    </div>
+</div>
+
+
+
+<footer>
+    <div class="footer-wrapper">
+        <div class="footer-list">
+            <img src="assets/images/mainlogo.png" width="100" alt="">
+            <p>Wigs & More provides a unique online shopping journey that distinguishes us in the industry. Our selection features top-notch wig brands and styles, accompanied by expert advice to guarantee your satisfaction.
+
+            </p>
+        </div>
+        <div class="footer-list">
+           <h2>Links</h2>
+           <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Our Products</a></li>
+           </ul>
+        </div>
+        <div class="footer-list">
+            <h2>Our Contact</h2>
+            <ul>
+            <li><b>Address: No 12 Yanji klin.MD.20770</b></li>
+            <li><b>Phone:</b>+1(301)-777-9870</li>
+            <li><b>Email:</b>wigsnmore@yahoo.com</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script>
+    const menubtn = document.querySelector('.menu-bar');
+    const menu = document.querySelector('.mobile-menu');
+    const close =document.querySelector('.mobile-menu span')
+    menubtn.addEventListener('click', function(){
+        menu.classList.add('active');
+    });
+    close.addEventListener('click', function(){
+        menu.classList.remove('active');
+    });
+</script>
+    </body>
+    </html>

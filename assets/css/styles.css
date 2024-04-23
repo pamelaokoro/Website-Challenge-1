@@ -1,0 +1,417 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(250, 246, 255);
+    margin: 0px;
+
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  color: #242324;
+  
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background: white;
+  
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-self: baseline;
+    gap: 44px;
+}
+.logo{
+    flex: 1;
+ 
+
+}
+.logo img{
+    width: 350px;
+}
+nav{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(253, 221, 253), rgb(226, 125, 244));
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: x-large;
+    
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+}
+nav ul li{
+    display: ruby-text-container;
+    padding: 15px;
+}
+ a{
+    color: #221b22;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+a:hover{
+    color:#ba00e3;
+   
+}
+.account{
+    flex:1
+
+}
+.account button{
+    width: 120px;
+    border: 1px solid #9d00af;
+    background: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.account button:hover{
+    width: 120px;
+    border: 1px solid #9d00af;
+    background: #9d00af;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.container{
+    width: 100%;
+    background-image: url(../images/bg.png);
+    background-position: top left;
+    background-size: 19%;
+    background-repeat: no-repeat;
+}
+.section-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+}
+.text-container{
+    flex: 1;
+}
+.text-container h2{
+font-size: 70px;
+color: #221b22;
+}
+.text-container span{
+    background-image:linear-gradient(to right,  rgb(45, 1, 57), rgb(242, 0, 255));
+    color: transparent;
+    background-clip: text;
+    }
+
+
+.img-container{
+    flex: 1;
+    text-align: right;
+}
+.about-us{
+    flex: 2;
+    padding: 50px;
+}
+.product{
+    width: 100%;
+    margin-top: 44px;
+    background: #fbddff;
+    padding-top: 33px;
+    padding-bottom: 80px;
+}
+.title{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 22px;
+
+}
+.title h2{
+    font-size: 55px;
+    color: #ba00e3;
+}
+.product-list{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.list{
+    width: 20%;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 20px;
+}
+.list img{
+    width: 100%;
+    height: 400px;
+    
+}
+.txt{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.txt span{
+    font-size: 40px;
+    color: #ba00e3;
+}
+.list button{
+    width: 100%;
+    border: 1px solid #9d00af;
+    background: #9d00af;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    padding: 15px;
+}
+
+
+footer{
+    width: 100%;
+    margin-top: 55px;
+}
+
+.footer-wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-self: flex-start;
+    gap: 55px;
+}
+.footer-list{
+    flex: 1;
+    padding: 10px;
+}
+.footer-list ul{
+    list-style: none;
+}
+
+.footer-list ul li{
+    margin-top: 15px;
+}
+
+.contact-container{
+    width: 100%;
+    margin: 70px 0px;
+    
+}
+.contact-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap:44px
+
+}
+.contacts{
+    flex: 1;
+}
+.contacts ul li{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 0px;
+}
+.contact-form{
+    flex:1;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+input, select, textarea{
+    margin-top: 11px;
+    width: 100%;
+    background-color: #fde9ff;
+}
+input{
+    padding: 14px;
+    border: 1px solid #f6a8f2;
+    outline: none;
+    color: #494849;
+}
+textarea{
+    padding: 14px;
+    border: 1px solid #f6a8f2;
+    outline: none;
+    color: #494849;
+}
+
+form button{
+    padding: 15px;
+    background-color: #9d00af;
+    color: whitesmoke;
+    border: none;
+
+}
+.title{
+    width: 70%;
+    line-height: 34px;
+}
+.title h2{
+    color:#9d00af
+}
+.mobile-menu{
+    display: none;
+}
+
+/* ================================= Media Screen ========================== */
+@media (max-width: 668px) {
+
+    header{
+        width: 100%;
+      
+    }
+    .wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-self: baseline;
+        gap: 44px;
+        padding-top: 20px;
+    }
+    .logo{
+        text-align: center;
+    }
+    
+    .logo img{
+        width: 150px;
+    }
+    .nav{
+        display: none;
+    }
+    
+    .account{
+        flex:1
+    }
+    .account {
+       display: none;
+    }
+   
+    .section-wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 40px;
+        flex-direction: column;
+    }
+    .text-container{
+        flex: 1;
+    }
+    .text-container h2{
+    font-size: 40px;
+    }
+    
+
+    .img-container{
+        flex: 1;
+        text-align: right;
+    }
+    
+
+    .product{
+        width: 100%;
+        margin-top: 44px;
+        background: #fbddff;
+        padding-top: 33px;
+        padding-bottom: 80px;
+    }
+    .title{
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 22px;
+    
+    }
+    .title h2{
+        font-size: 55px;
+        color: #ba00e3;
+    }
+    .products{
+        margin: 0px;
+    }
+    .product-list{
+        width: 100%;
+        flex-direction: column;
+    }
+    .list{
+        width: 90%;
+        border: 1px solid #000;
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    .footer-wrapper{
+        width: 90%;
+        flex-direction: column;
+    }
+    .about-us{
+        flex: 2;
+        padding: 50px;
+    }
+    .contact-wrapper{
+        flex-direction: column;
+    }
+
+    .mobile-menu{
+        width:50%;
+        background-color: #2d072d;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        height: 100%;
+        display: none;
+        
+    }
+    .mobile-menu span{
+        font-size: 60px;
+        color: white;
+        margin-left: 144px;
+        text-align: right;
+        cursor: pointer;
+    }
+    .menu{
+        padding: 20px;
+    }
+    .menu ul li{
+        margin-top: 20px;
+        font-size: 19px;
+    }
+    .menu ul li a{
+        color: #9d00af;
+    }
+    .menu-bars{
+        width: 140px;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        z-index: 11111;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+    }
+    .bars{
+        width: 32px;
+        height: 3px;
+        background-color: #ba00e3;
+        margin-top: 7px;
+    }
+    .active{
+        display: block;
+    }
+
+}
